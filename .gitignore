@@ -24,15 +24,3 @@ package-lock.json
 yarn.lock
 
 target/
-
-# Pipeline runtime data (keep folder structure via .gitkeep)
-pipeline/incoming/*
-!pipeline/incoming/.gitkeep
-pipeline/processed/*
-!pipeline/processed/.gitkeep
-pipeline/results/*
-!pipeline/results/.gitkeep
-# Python cache
-pipeline/**/__pycache__/
-pipeline/**/*.pyc
-pipeline/**/.pytest_cache/
